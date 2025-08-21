@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv(r"D:\Загрузки\3.3.2.csv", sep=";")
+data = pd.read_csv("3.3.2.csv", sep=";")
 
 price = data['Price'].round()
 mean_price = round(price.mean(), 1)
